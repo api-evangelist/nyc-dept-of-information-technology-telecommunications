@@ -1,0 +1,121 @@
+generated: '2026-10-23'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 9
+  own: 7
+  other_domain: 2
+  platform: 0
+  roles:
+  - api
+  - data
+  - legal
+  - other
+  - portal
+  - security
+  - website
+hosts:
+- host: a858-nycnotify.nyc.gov
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: nyc.gov
+  role: other
+  relation: own
+- host: api.nyc.gov
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: nyc.gov
+  role: api
+  relation: own
+- host: cityjobs.nyc.gov
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: nyc.gov
+  role: other
+  relation: own
+- host: data.nyc.gov
+  found_by:
+  - probed
+  - site-links
+  - namespace-probe
+  - well-known
+  types: []
+  serves: []
+  title: Explore data about NYC - NYC Open Data
+  status: 200
+  registrable_domain: nyc.gov
+  role: data
+  relation: own
+- host: nyc.responsibledisclosure.com
+  found_by:
+  - pointer
+  types:
+  - Security
+  serves: []
+  registrable_domain: responsibledisclosure.com
+  role: security
+  relation: other-domain
+- host: portal.311.nyc.gov
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - docs-index
+  - contract-discovery
+  - well-known
+  types:
+  - DeveloperPortal
+  serves:
+  - docs
+  registrable_domain: nyc.gov
+  role: portal
+  relation: own
+- host: www.nyc.gov
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - well-known
+  types:
+  - Newsroom
+  serves: []
+  registrable_domain: nyc.gov
+  role: other
+  relation: own
+- host: www.nyc.gov:443
+  found_by:
+  - pointer
+  types:
+  - TermsOfService
+  serves: []
+  registrable_domain: nyc.gov:443
+  role: legal
+  relation: other-domain
+- host: www1.nyc.gov
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Website
+  serves:
+  - cdn
+  vendor: akamai
+  registrable_domain: nyc.gov
+  role: website
+  relation: own

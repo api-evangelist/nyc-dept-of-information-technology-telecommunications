@@ -1,0 +1,35 @@
+# NYC Cyber Command Vulnerability Disclosure Program  
+
+ 
+
+# Our security address 
+
+Contact:  https://nyc.responsibledisclosure.com/hc/en-us 
+
+ 
+
+Preferred-Languages: en 
+
+ 
+
+#Our security acknowledgments page 
+
+Acknowledgments: https://nyc.responsibledisclosure.com/hc/en-us/articles/20413464091155 
+
+ 
+
+Canonical: https://www.nyc.gov/.well-known/security.txt 
+
+ 
+
+#Our security policy 
+
+Policy: https://nyc.responsibledisclosure.com/hc/en-us 
+
+ 
+
+Hiring: https://jobs.nyc.gov 
+
+ 
+
+Expires: 2027-07-01T00:00:00z 
